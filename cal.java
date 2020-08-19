@@ -2,7 +2,13 @@ class cal
 {
 	float div(float a,float b)
 	{
-		return(a/b);
+		if(b==0)
+		{
+			return(-1);
+		}
+		else{
+			return(a/b);
+		}
 	}
 	public static void main(String arg[])
 	{
